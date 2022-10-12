@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">demo_assignment</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="add_new_trip">Add new Trip</string>
+    <string name="name_trip">Name Trip:</string>
+
+    <!--    nava-->
+    <string name="nav_home">Home:</string>
+    <string name="nav_trip">Your Trip:</string>
+    <string name="account">Account:</string>
+    <string name="nav_profile">My Profile:</string>
+    <string name="nav_password">Change Password:</string>
+    <string name="nav_open">Open navigation</string>
+    <string name="nav_close">Close navigation</string>
+
+    <!--    spinner-->
+    <string-array name="type_expenses">
+        <item>Food</item>
+        <item>Transport</item>
+        <item>Travel</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
