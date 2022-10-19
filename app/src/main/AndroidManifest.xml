@@ -31,6 +31,14 @@
                 android:value="" />
         </activity>
         <activity
+            android:name=".expenses.AddExpenses"
+            android:exported="true"
+            android:parentActivityName=".expenses.ExpensesActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".expenses.ExpensesActivity"
             android:exported="true"
             android:parentActivityName=".trips.UpdateTrip">

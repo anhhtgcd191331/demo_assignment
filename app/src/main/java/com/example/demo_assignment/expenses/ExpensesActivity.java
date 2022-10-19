@@ -41,7 +41,7 @@ public class ExpensesActivity extends AppCompatActivity {
         add_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentPut = new Intent(ExpensesActivity.this, UpdateTrip.class);
+                Intent intentPut = new Intent(ExpensesActivity.this, AddExpenses.class);
                 intentPut.putExtra("trip_id", String.valueOf(tripID));
                 startActivity(intentPut);
             }
